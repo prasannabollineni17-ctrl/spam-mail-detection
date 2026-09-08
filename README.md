@@ -55,3 +55,4 @@ Support Vector Machines are widely recognized as one of the most effective super
 ---
 
 ## 📂 Project Architecture
+Spam_Mail_Detection/ │ ├── spam_dataset.csv # Labeled email dataset (message_content, is_spam) ├── train.py # ML pipeline: data cleaning, TF-IDF, SVM training & evaluation ├── app.py # Interactive web application interface ├── requirements.txt # Python package requirements ├── .gitignore # Git exclusions ├── README.md # Application documentation │ └── model/ # Serialized ML artifacts ├── spam_svm_model.pkl # Calibrated Linear SVM model └── tfidf_vectorizer.pkl # Trained TF-IDF vectorizer
